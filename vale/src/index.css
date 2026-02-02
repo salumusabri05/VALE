@@ -396,7 +396,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   position: relative;
   min-height: 120px;
 }
@@ -427,8 +427,7 @@ button {
   }
 
   .button-container {
-    flex-direction: column;
-    gap: 30px;
+    gap: 15px;
   }
 }
 
